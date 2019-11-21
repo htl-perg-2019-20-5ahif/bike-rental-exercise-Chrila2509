@@ -102,7 +102,7 @@ namespace api.Controllers
 
             if(customer.Rentals != null)
             {
-                var customerRentals = await _context.Rentals.Where(r => r.CustomerID == id).ToListAsync():
+                var customerRentals = await _context.Rentals.Where(r => r.CustomerID == id).ToListAsync();
                 foreach( var custRent in customerRentals)
                 {
                    _context.Rentals.Remove(custRent);

@@ -1,5 +1,5 @@
-@host = http://localhost:5000/api
-#@host = https://bike-rental-api.azurewebsites.net/api
+#@host = http://localhost:5000/api
+#@host = https://bikerentalchrila2509.azurewebsites.net/api
 
 ###
 POST {{host}}/customers
